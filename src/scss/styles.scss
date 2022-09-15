@@ -1,0 +1,136 @@
+@import "./variables.scss";
+@import "./fonts.scss";
+
+.container_home {
+    margin-top: 60px;
+}
+
+.container__heading {
+    font-weight: bold;
+    color: $green;
+    line-height: 48px;
+}
+
+.title_bold {
+    color: $blue;
+    font-weight: 600;
+}
+
+.page_green {
+    background: $light-green;
+    min-height: 100vh;
+}
+
+.container_white {
+    background: $white;
+}
+
+.container_padding-fix {
+    padding-top: 80px;
+    padding-bottom: 32px;
+}
+
+.empty-card {
+    display: inline-block;
+    background: $grey-100;
+    border: 1px dashed $grey-200;
+    border-radius: 12px;
+    box-sizing: border-box;
+    width: 248px;
+    height: 248px;
+    z-index: -1;
+}
+
+.book-card_wrong {
+    border-left: 2px solid $error;
+}
+
+.book-card_right {
+    border-left: 2px solid $success;
+}
+
+.book-card {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(12, 110, 214, 0.16);
+    border-radius: 12px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 248px;
+    height: 248px;
+    z-index: 100;
+}
+
+.book-card__img {
+    height: 100%;
+    width: auto;
+}
+
+.button {
+    border-radius: 24px;
+    text-decoration: none;
+    border: none;
+}
+
+.button_green {
+    background: $green;
+    color: $white;
+}
+
+.footer {
+    height: 264px;
+}
+
+.instruction-card {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 0px 0px 20px 20px;
+    border-top: 2px solid $green;
+}
+
+.instruction-card__heading {
+    font-weight: 700;
+    color: $blue;
+}
+
+.instruction-card__desc {
+    font-size: 18px;
+    color: $blue;
+}
+
+.nav {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(12, 110, 214, 0.16);
+    border-radius: 0 0 8px 8px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    color: $green;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.nav img {
+    padding: 8px;
+}
+
+.title-card {
+    background: linear-gradient(90deg, #3f8cff 0.06%, #60b9a6 99.94%);
+    box-shadow: 0px 14px 16px rgba(12, 110, 214, 0.25);
+    border-radius: 24px;
+    padding: 40px 16px;
+}
+
+.title-card__heading {
+    color: $white;
+    font-weight: 700;
+}
+
+.instruction-card__desc {
+    font-size: 18px;
+    color: $blue;
+}
