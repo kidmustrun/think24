@@ -39,6 +39,7 @@
             <BookCard
               v-if="getBook(category, index)"
               draggable="true"
+              class="w-100"
               :class="{
                 'book-card_wrong':
                   checked &&

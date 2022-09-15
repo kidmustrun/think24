@@ -36,8 +36,9 @@
     border: 1px dashed $grey-200;
     border-radius: 12px;
     box-sizing: border-box;
-    width: 30vh;
     height: 30vh;
+    width: 80%;
+    max-height: 270px;
     z-index: -1;
 }
 
@@ -55,8 +56,9 @@
     border-radius: 12px;
     box-sizing: border-box;
     display: inline-block;
-    width: 30vh;
     height: 30vh;
+    width: 40%;
+    max-height: 270px;
     z-index: 100;
 }
 @media screen and (max-width: 768px) {
