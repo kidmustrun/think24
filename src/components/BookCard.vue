@@ -1,14 +1,15 @@
 <template>
-  <div class="book-card p-2 position-relative">
-    <img src="@/assets/draganddrop.svg" class="position-absolute bottom-50" />
+  <div class="book-card p-2 position-relative text-center">
+    <img
+      src="@/assets/draganddrop.svg"
+      class="position-absolute bottom-50 start-0 ms-2 book-card__img"
+    />
     <img
       v-if="checked"
       :src="getImgUrl(resultimg)"
-      class="position-absolute end-0"
+      class="position-absolute end-0 me-2"
     />
-    <div class="book-card__img text-center">
-      <img :src="getImgUrl(img)" alt="book" />
-    </div>
+    <img class="book-card__img" :src="getImgUrl(img)" alt="book" />
   </div>
 </template>
 

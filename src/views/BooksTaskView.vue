@@ -5,7 +5,7 @@
       <TitleOfTask title="В мире книг" />
 
       <div class="row">
-        <div class="col-lg-6 col droppable">
+        <div class="col-lg-6 col-12 droppable">
           <p class="invisible">hidden</p>
           <BookCard
             v-for="book in books.filter((book) => book.activated == false)"
@@ -20,7 +20,7 @@
         <div
           v-for="category in categories"
           :key="category.categoryId"
-          class="col-lg-3 col"
+          class="col-lg-3 col-6"
         >
           <p class="title_bold text-center" v-if="category.categoryId === 0">
             Жанры фольклора
